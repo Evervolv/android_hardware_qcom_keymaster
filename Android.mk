@@ -40,7 +40,8 @@ LOCAL_SHARED_LIBRARIES := \
         liblog \
         libc \
         libdl \
-        libcutils
+        libcutils \
+        libhardware
 
 LOCAL_ADDITIONAL_DEPENDENCIES := \
     $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr \
